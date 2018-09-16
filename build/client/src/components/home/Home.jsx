@@ -1,8 +1,11 @@
 import React from 'react'
+import Slide from './home/Slide.jsx'
 
 const Home = (props) => {
     return (
-        <div> Home</div>
+        <div>
+            <Slide />
+        </div>
     )
 }
 
