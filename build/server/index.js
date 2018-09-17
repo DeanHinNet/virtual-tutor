@@ -4,9 +4,26 @@ const port = 8080
 
 const app = express()
 
-app.use(bodyParser.json())
-app.use(express.static(__dirname + '/../client/dist'))
+const server = require('http').createServer(app);
+const io = require('socket.io')(server)
 
-app.listen(port, () => {
+
+app.use(bodyParser.json())
+
+server.listen(port, () => {
     console.log(`Virtual tutor listening on port ${port}`)
 })
+app.use(express.static(__dirname + '/../client/dist'))
+
+io.on('connection', (client) => {
+    socket.on('mousemove', function(data) {
+        socket.id = data.id;
+        io.emit('moving', data);
+    });
+    socket.on('disconnect', function() {
+    socket.broadcast.emit('left', socket.id);
+    });
+  });
+
+
+

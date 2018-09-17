@@ -13,7 +13,7 @@ class Header extends React.Component {
             <div className={this.props.navCss} id='header'>
                 <div className='wrapper-head'>
                     <Link className='navbar-item' to='/'>Home</Link>
-                    <Link className='navbar-item' to='/'>How it Works</Link>
+                    <Link className='navbar-item' to='/how'>How it Works</Link>
                     <Link className='navbar-item' to='/'>Pricing</Link>
                     <Link className='navbar-item' to='/'>Tutor List</Link>
                     <Link className='navbar-item' to='/'>Student Sign In</Link>

@@ -9,20 +9,31 @@
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
-    height: 3em;
+    height: 4em;
     padding: 1em;
 }
-.grey {
-    height: 100px;
-    background-color: lightgrey;
+@mixin section(){
+    height: 175px;
     text-align: center;
-    margin: 10px 0;
+    padding: 2em 0;
+    color: #1e4c73;
+   
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        margin: 1em 0;
+    }
+}
+.grey {
+    @include section;
+    background-color: lightgrey;
+   
 }
 .white {
-    height: 100px;
+    @include section;
     background-color: white;
-    text-align: center;
-    margin: 10px 0;
 }
 #contents {
     background-color: orange;

@@ -16,7 +16,13 @@
     margin: 10px;
 }
 
+.header-buff {
+    padding-top: 30px;
+    background-color: lightgrey;
+
+}
 @import 'header';
 @import 'main';
 @import 'footer';
 @import 'home';
+@import 'whiteboard';
