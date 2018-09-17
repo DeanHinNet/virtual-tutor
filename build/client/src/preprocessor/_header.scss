@@ -1,0 +1,38 @@
+
+.show {
+    background-color: white;
+    color: #214D6F;
+    transition: background-color .75s ease 0s;
+    a {
+        color: #1e4c73;
+    }
+}
+.hide {
+    opacity: 1.0;
+    a {
+        color: #FFF;
+    }
+}
+
+#header {
+    z-index: 100;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    height: 3em;
+    width: 100%;
+    
+    .wrapper-head {
+        margin: 0 auto;
+        margin-top: .25em;
+        height: 2.5em;
+        display: block;
+        
+    
+        width: 895px;
+        a {
+            float: left;
+            display: block;
+        }
+    }
+}

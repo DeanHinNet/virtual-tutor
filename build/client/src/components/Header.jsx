@@ -11,7 +11,7 @@ class Header extends React.Component {
     render() {
         return (
             <div className={this.props.navCss} id='header'>
-                <div className='wrapper'>
+                <div className='wrapper-head'>
                     <Link className='navbar-item' to='/'>Home</Link>
                     <Link className='navbar-item' to='/'>How it Works</Link>
                     <Link className='navbar-item' to='/'>Pricing</Link>

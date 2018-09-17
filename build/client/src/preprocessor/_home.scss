@@ -1,0 +1,63 @@
+#home {
+    color: red;
+}
+
+#searchbox {
+    width: 50em;
+    display: block;
+    margin: 0 auto;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    height: 3em;
+    padding: 1em;
+}
+.grey {
+    height: 100px;
+    background-color: lightgrey;
+    text-align: center;
+    margin: 10px 0;
+}
+.white {
+    height: 100px;
+    background-color: white;
+    text-align: center;
+    margin: 10px 0;
+}
+#contents {
+    background-color: orange;
+}
+.video-content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+#slide {
+    height: 600px;
+    background: url('./../pics/campus1.jpg');
+    background-size: cover;
+}
+
+#slide-content {
+    text-align: center;
+    color: #FFF;
+    position: absolute;
+    top: 40%;
+    width: 40em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    h1 {
+        font-size: 6em;
+
+    }
+    p {
+        font-size: 3em;
+        margin-bottom: .25em;
+    }
+}
