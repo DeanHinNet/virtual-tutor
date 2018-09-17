@@ -38,7 +38,7 @@
 #contents {
     background-color: orange;
 }
-.video-content {
+.slide-content {
     position: fixed;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
@@ -52,7 +52,10 @@
     background: url('./../pics/campus1.jpg');
     background-size: cover;
 }
-
+#slide-video {
+    min-width: 100%; 
+  min-height: 100%; 
+}
 #slide-content {
     text-align: center;
     color: #FFF;
