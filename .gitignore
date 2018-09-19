@@ -1,7 +1,11 @@
 config.js
 node_modules
 node-node_modules
-planning
+planning.md
 package-lock.json
 bundle.js
+*.sass-cache
 .sass-cache
+*.mp4
+*.jpg
+*.gif
