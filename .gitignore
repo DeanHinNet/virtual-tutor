@@ -3,3 +3,5 @@ node_modules
 node-node_modules
 planning
 package-lock.json
+bundle.js
+.sass-cache
