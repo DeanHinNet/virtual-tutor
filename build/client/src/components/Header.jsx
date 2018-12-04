@@ -16,7 +16,7 @@ class Header extends React.Component {
                     <Link className='navbar-item' to='/how'>How it Works</Link>
                     <Link className='navbar-item' to='/'>Pricing</Link>
                     <Link className='navbar-item' to='/'>Tutor List</Link>
-                    <Link className='navbar-item' to='/'>Student Sign In</Link>
+                    <Link className='navbar-item' to='/dashboard'>STUDENT SIGN IN</Link>
                     <Link className='navbar-item' to='/'>Tutor Sign In</Link>
                     <Link className='navbar-item' to='/'>Become a Tutor</Link>
                     <Link className='navbar-item' to='/'>Begin Initial 60 Minutes</Link>
